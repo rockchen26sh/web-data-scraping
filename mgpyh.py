@@ -21,8 +21,9 @@ def get_item_info(url):
     bsObj_info = BeautifulSoup(req.text)
     content = bsObj_info.findAll("div",{"class":"post-content img-max-size"})[0].get_text()
     brand = bsObj_info.find("ul",{"class":"info"}).findAll("li")[4].get_text()
+    mall = bsObj_info.find("ul",{"class":"info"}).findAll("li")[5].get_text()
     brand = brand.replace("品牌 ","")
-    total = {"brand":brand,"content":content}
+    total = {"brand":brand,"content":content,"mall":mall}
     return total
 
 
@@ -32,13 +33,18 @@ items = get_items(url)
 for item in items:
     href = item.find("a",{"class":"readmore"})["href"]
     title = item.find("a").get_text()
-    title1 = title.split("￥")[0]
-    price = title.split("￥")[1]
-    time.sleep(3)
+    try:
+        price = item.find("em").get_text()
+    except AttributeError:
+        price = 0
+    print(title)
+    print(price)
+    time.sleep(random.randint(5, 20))
     item_info = get_item_info("https://www.mgpyh.com" + href)
     brand = item_info["brand"]
     content = item_info["content"]
-    print(title1,"|",price,"|",brand,"|",content,"|")
-    time.sleep(3)
+    mall = item_info["mall"]
+    print(title,"|",price,"|",brand,"|",content,"|",mall)
+    time.sleep(random.randint(5, 20))
 
 
