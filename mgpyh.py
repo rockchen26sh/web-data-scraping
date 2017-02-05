@@ -4,6 +4,12 @@ import random
 from bs4 import BeautifulSoup
 import requests
 import time
+import pymysql
+
+conn = pymysql.connect(host="127.0.0.1",user='root',passwd='28488747',db = 'scraping',use_unicode='True',charset='utf8')
+cur = conn.cursor()
+cur.execute('USE scraping')
+
 session = requests.Session()
 header = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36",
           "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
@@ -23,8 +29,17 @@ def get_item_info(url):
     brand = bsObj_info.find("ul",{"class":"info"}).findAll("li")[4].get_text()
     mall = bsObj_info.find("ul",{"class":"info"}).findAll("li")[5].get_text()
     brand = brand.replace("品牌 ","")
+    mall = mall.replace("商城 ","")
     total = {"brand":brand,"content":content,"mall":mall}
     return total
+
+def insert_data(brand,title,price,content,mall):
+    cur.execute("INSERT INTO mgpyh (Brand,Title,Price,Content,Mall) VALUE (%s,%s,%s,%s,%s)",
+                    (brand, title, price, content, mall))
+    conn.commit()
+
+
+
 
 
 url = "https://www.mgpyh.com/post/?page=1"
@@ -44,7 +59,14 @@ for item in items:
     brand = item_info["brand"]
     content = item_info["content"]
     mall = item_info["mall"]
-    print(title,"|",price,"|",brand,"|",content,"|",mall)
+    cur.execute("SELECT * from mgpyh WHERE Title = %s",(title))
+    if cur.rowcount == 0 :
+        insert_data(brand, title, price, content, mall)
+    else:
+        break
     time.sleep(random.randint(5, 20))
+
+cur.close()
+conn.close()
 
 
