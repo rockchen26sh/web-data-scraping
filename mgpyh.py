@@ -3,7 +3,7 @@ import re
 import random
 from bs4 import BeautifulSoup
 import requests
-
+import time
 session = requests.Session()
 header = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36",
           "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
@@ -34,9 +34,11 @@ for item in items:
     title = item.find("a").get_text()
     title1 = title.split("￥")[0]
     price = title.split("￥")[1]
+    time.sleep(3)
     item_info = get_item_info("https://www.mgpyh.com" + href)
     brand = item_info["brand"]
     content = item_info["content"]
     print(title1,"|",price,"|",brand,"|",content,"|")
+    time.sleep(3)
 
 
