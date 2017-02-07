@@ -1,6 +1,6 @@
 import threading
 import mgpyh
 import time
-while (True) :
+while True :
     mgpyh
     time.sleep(300)

@@ -9,6 +9,7 @@ def cleanInput(input):
     input = re.sub("\[[0-9]*\]", " ", input)
     input = bytes(input,"UTF-8")
     input = input.decode("ascii","ignore")
+    input = input.upper()
     cleanInput = []
     input = input.split(' ')
     for item in input:
