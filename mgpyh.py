@@ -48,12 +48,12 @@ def insert_data(brand,title,price,content,mall,category):
 
 while True :
     n = 0
-    for i in range(1,2):
+    for i in range(1,11):
 
         url = "https://www.mgpyh.com/post/?page=" + str(i)
         items = get_items(url)
         for item in items:
-            if n > 2:
+            if n > 5:
                 break
             href = item.find("a",{"class":"readmore"})["href"]
             title = item.find("a").get_text()
@@ -70,6 +70,7 @@ while True :
             category = item_info["category"]
             cur.execute("SELECT * from mgpyh WHERE Title = %s",(title))
             if cur.rowcount == 0 :
+                n = 0
                 insert_data(brand, title, price, content, mall,category)
             else:
                 n += 1
@@ -77,7 +78,7 @@ while True :
             time.sleep(3)
             print(i)
             print (n)
-    time.sleep(random(600,900))
+    time.sleep(random.randint(600,900))
 
 cur.close()
 conn.close()

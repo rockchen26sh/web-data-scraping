@@ -22,7 +22,7 @@
     <SUITE FILE_PATH="coverage/web Scraping with Python$5_2__1_.coverage" NAME="5.2 (1) Coverage Results" MODIFIED="1486102819647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/web-data-scraping$1_1.coverage" NAME="1.1 Coverage Results" MODIFIED="1486437287087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Machine Learning" />
     <SUITE FILE_PATH="coverage/web Scraping with Python$extrabux.coverage" NAME="extrabux Coverage Results" MODIFIED="1486084358801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/web-data-scraping$mgpyh.coverage" NAME="mgpyh Coverage Results" MODIFIED="1486351509079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/web-data-scraping$mgpyh.coverage" NAME="mgpyh Coverage Results" MODIFIED="1486514935273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/web Scraping with Python$1.coverage" NAME="1 Coverage Results" MODIFIED="1485919456425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/web Scraping with Python$5_2.coverage" NAME="5.2 Coverage Results" MODIFIED="1486102722739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downloaded" />
     <SUITE FILE_PATH="coverage/web Scraping with Python$3_3.coverage" NAME="3.3 Coverage Results" MODIFIED="1485940439024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -52,7 +52,7 @@
       <file leaf-file-name="5.6.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5.6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
+            <state relative-caret-position="780">
               <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="12" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
@@ -65,16 +65,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mgpyh.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mgpyh.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mgpyh.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+            <state relative-caret-position="1600">
+              <caret line="80" column="39" lean-forward="true" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
-                <marker date="1486351509071" expanded="true" signature="1569:1654" ph="INSERT INTO mgpyh... " />
-                <marker date="1486351509071" expanded="true" signature="1581:1650" ph="SELECT * fro... mgpyh" />
-                <marker date="1486351509071" expanded="true" signature="2489:2525" ph="SELECT * fro... mgpyh" />
+                <marker date="1486515053096" expanded="true" signature="1740:1825" ph="INSERT INTO mgpyh... " />
+                <marker date="1486515053096" expanded="true" signature="2676:2712" ph="SELECT * fro... mgpyh" />
               </folding>
             </state>
           </provider>
@@ -84,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/9.1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="64" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -95,7 +94,7 @@
       <file leaf-file-name="9.2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9.2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="200">
               <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -104,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1.1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Machine Learning/1.1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="-199">
+              <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -153,7 +152,7 @@
       <file leaf-file-name="7.1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7.1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
+            <state relative-caret-position="560">
               <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
@@ -213,10 +212,10 @@
         <option value="$PROJECT_DIR$/6.2.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/7.1.py" />
-        <option value="$PROJECT_DIR$/mgpyh.py" />
         <option value="$PROJECT_DIR$/downloaded/9.1.py" />
         <option value="$PROJECT_DIR$/9.2.py" />
         <option value="$PROJECT_DIR$/../Machine Learning/1.1.py" />
+        <option value="$PROJECT_DIR$/mgpyh.py" />
       </list>
     </option>
   </component>
@@ -227,6 +226,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="26" />
+    <option name="y" value="12" />
     <option name="width" value="1285" />
     <option name="height" value="1395" />
   </component>
@@ -249,16 +250,6 @@
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-data-scraping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Machine Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="web-data-scraping" />
@@ -299,7 +290,7 @@
       <recent name="C:\Users\chenshengkang\Documents\GitHub\web Scraping with Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1.1">
+  <component name="RunManager" selected="Python.mgpyh">
     <configuration default="false" name="mgpyh" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -613,10 +604,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.1.1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.9.2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.9.1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mgpyh" />
+        <item index="0" class="java.lang.String" itemvalue="Python.mgpyh" />
+        <item index="1" class="java.lang.String" itemvalue="Python.1.1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.9.2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.9.1" />
         <item index="4" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -635,16 +626,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1285" height="1395" extended-state="0" />
+    <frame x="26" y="12" width="1285" height="1395" extended-state="1" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14499606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2923562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21806854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21806854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42183816" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -683,9 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1486190736993" expanded="true" signature="157:187" ph="SELECT * FRO... pages" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,9 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1486190736993" expanded="true" signature="157:187" ph="SELECT * FRO... pages" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,9 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,9 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <marker date="1486190736993" expanded="true" signature="157:187" ph="SELECT * FRO... pages" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,9 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,7 +988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5.6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
+        <state relative-caret-position="780">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="12" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
@@ -1032,7 +1002,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/7.1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
+        <state relative-caret-position="560">
           <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
@@ -1040,23 +1010,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mgpyh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <marker date="1486351509071" expanded="true" signature="1569:1654" ph="INSERT INTO mgpyh... " />
-            <marker date="1486351509071" expanded="true" signature="1581:1650" ph="SELECT * fro... mgpyh" />
-            <marker date="1486351509071" expanded="true" signature="2489:2525" ph="SELECT * fro... mgpyh" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9.1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="64" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -1065,7 +1022,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/9.2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="200">
           <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -1075,9 +1032,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Machine Learning/1.1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="-199">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgpyh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="80" column="39" lean-forward="true" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1486515053096" expanded="true" signature="1740:1825" ph="INSERT INTO mgpyh... " />
+            <marker date="1486515053096" expanded="true" signature="2676:2712" ph="SELECT * fro... mgpyh" />
+          </folding>
         </state>
       </provider>
     </entry>
